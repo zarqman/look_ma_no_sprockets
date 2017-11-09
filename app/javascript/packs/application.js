@@ -10,6 +10,9 @@
 import Rails from 'rails-ujs'
 Rails.start()
 
+import Turbolinks from 'turbolinks'
+Turbolinks.start()
+
 import $ from 'jquery'
 global.$ = $
 global.jQuery = $
